@@ -1,6 +1,7 @@
 # 🧠 InsightBot
 
 InsightBot is a powerful AI assistant that implements a **RAG (Retrieval-Augmented Generation) pipeline** combined with LLM (Large Language Model) response integration. It enables users to upload documents (CSV, TXT, PDF), interact via chat to get document-related answers, and extract meaningful insights.
+InsightBot uses a Hugging Face Transformers API model to generate context-aware, accurate responses from document data.
 
 ## ✨ Features
 
