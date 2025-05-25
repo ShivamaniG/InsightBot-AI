@@ -1,0 +1,16 @@
+streamlit
+openai
+transformers
+pdf2image
+PyMuPDF
+python-docx
+pandas
+faiss-cpu
+torch
+sentence-transformers
+Pillow
+scikit-learn
+matplotlib
+tabulate
+requests
+transformers
