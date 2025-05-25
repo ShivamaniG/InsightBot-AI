@@ -7,7 +7,7 @@ InsightBot uses a Hugging Face Transformers API model to generate context-aware,
 ## ✨ Features
 
 - **File Upload & Chat:** Upload CSV, TXT, and PDF files and ask questions to get accurate, context-aware answers from the document.
-- **RAG Pipeline:** Retrieves relevant document chunks to provide precise responses using embedding-based search.
+- **RAG (Retrieval-Augmented Generation) pipeline:** Consists of retrieval and generation. First, it embeds the input query and retrieves the most relevant chunks from a document store using similarity search (like FAISS). These chunks, along with the original query, are passed to a LLM (Large Language Model) which generates a final, context-aware response. This makes answers more accurate and grounded in the
 - **Insight Cards:** Extracts and displays:
   - Key Points
   - Major Insights
